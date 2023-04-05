@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+
+p {
+    margin: 2em 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading {
+    font-size: 3em;
+    margin: 1em auto;
+}
+
+.quote__box {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px grey;
+    max-width: 1000px;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.quote__box--text {
+    font-family: 'Delicious Handrawn', sans-serif;
+    letter-spacing: 2px;
+}
+
+.quote__box--author {
+    margin-left: auto;
+}
+
+.generate__quote {
+    margin-top: 3em;
+    border: none;
+    border-radius: 10px;
+    padding: 1em 2em;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    transition: 0.3s;
+}
+
+.generate__quote:hover {
+    box-shadow: 5px 5px 3px grey;
+}

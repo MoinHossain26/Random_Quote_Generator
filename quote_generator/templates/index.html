@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../static/css/styles.css">
+        <title>Quote Generator</title>
+    </head>
+    <body>
+        <h1 class="heading text-center">Random Quote Generator</h1>
+        <p class="text-center">Please refresh to generate new quote...</p>
+        <div class="quote__box text-center">
+            <h1 class="quote__box--text">" {{ quote["text"] }} "</h1>
+            <h2 class="quote__box--author">--{{ quote["author"] }}</h2>
+        </div>
+    </body>
+</html>
